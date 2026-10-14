@@ -1,0 +1,173 @@
+
+
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8fc;
+    color: #29434e;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #087cae;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.etiqueta {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Botones de la página */
+.boton {
+    display: inline-block;
+    background-color: #2ec4b6;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #22998f;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Títulos y párrafos */
+h2 {
+    color: #087cae;
+    border-bottom: 3px solid #2ec4b6;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #087cae;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Separación entre secciones */
+section {
+    margin-bottom: 35px;
+}
+
+/* Tarjetas de las playas */
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    flex: 1;
+    min-width: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px #cbdde3;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.tarjeta h3 {
+    padding: 0 15px;
+}
+
+.tarjeta p {
+    padding: 0 15px 15px;
+}
+
+/* Sección de actividades */
+.actividades {
+    background-color: #dff4f5;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.lista-actividades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.actividad {
+    background-color: white;
+    flex: 1;
+    min-width: 160px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.actividad span {
+    font-size: 30px;
+}
+
+/* Sección de otros atractivos */
+.atractivos {
+    background-color: #087cae;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.atractivos h2,
+.atractivos h3 {
+    color: white;
+}
+
+/* Sección para cuidar las playas */
+.cuidar {
+    background-color: #fff0d6;
+    padding: 25px;
+    border-left: 5px solid #2ec4b6;
+    border-radius: 8px;
+}
+
+/* Sección final */
+.despedida {
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #04506f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
